@@ -1,0 +1,179 @@
+.widgets {
+
+	p {
+		width: 60%;
+		display: inline-block;
+	}
+
+	a {
+		color: initial;
+		&:hover {
+			text-decoration: none;
+			color: white;
+		}
+	}
+
+	.free {
+		padding: 100px 0;
+
+
+		
+		.app-list {
+			display: flex;
+			flex-wrap: wrap;
+			//justify-content: space-between;
+		}
+
+		.filter {
+			input, select {
+				border-radius: 20px;
+			}
+		}
+		// .widget-box-new {
+		// 	background: white;
+		// 	padding: 20px;
+		// 	border-bottom: solid 5px $orange-color4;
+		// 	border-radius: 10px;
+
+		// 	img {
+		// 		width: 50%;
+		// 	}
+		// 	.name {
+		// 		padding: 5px 0;
+		// 		font-size: 18px;
+		// 		color: chocolate;
+		// 	}
+		// 	.tag {
+		// 		font-size: 14px;
+		// 		color: $black;
+		// 	}
+		// 	.description {
+		// 		padding: 5px 0;
+		// 		color: $black;
+		// 	}
+		// }
+
+		.widget-box {
+			margin: 10px;
+
+			background: white;
+			padding: 20px;
+			//border-bottom: solid 5px $orange-color4;
+			//border-radius: 10px;
+			//margin: 10px;
+			width: 31%;
+			//box-shadow: 5px 5px 10px 0 $grey;
+			box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+
+			.row {
+				margin-bottom: auto;
+			}
+
+			img {
+				width: 160px;
+				height: 90px;
+				//margin: 20px;
+			}
+			.title {
+				padding-left: 0;
+				text-align: left;
+
+				.name {
+					padding: 10px 0;
+					font-weight: 600;
+				}
+
+				.tag {
+					font-size: 14px;
+				}
+			}
+
+			.description {
+				margin-top: 20px;
+				padding-left: 10px;
+			}
+			
+			&:hover {
+				//border-bottom: solid 5px $deep-orange-color5;
+				
+				//box-shadow: -10px -10px $orange-color5;
+				//background: $orange;
+				transition: linear .2s;
+
+				//box-shadow: 5px 5px 10px 0 $orange;
+				
+				box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 $orange;
+
+				// .font-icon {
+				// 	color: white;
+				// }
+
+				.title {
+					color: $black;
+				}
+				.description {
+					color: $black;
+				}
+			}
+		}
+	}
+
+	.premium {
+		padding: 100px 0;
+		background: white;
+
+		svg {
+			background: $orange-color5;
+		}
+
+		.widget-box {
+			background: $bg-color;
+			padding: 20px;
+			border-bottom: solid 5px $orange-color4;
+			//border-radius: 10px;
+			.row {
+				margin-bottom: auto;
+			}
+
+			img {
+				width: 80px;
+				height: 80px;
+				//margin: 20px;
+			}
+			.title {
+				padding-left: 0;
+				text-align: left;
+
+				.name {
+					padding: 10px 0;
+					font-weight: 600;
+				}
+
+				.tag {
+					font-size: 14px;
+				}
+			}
+
+			.description {
+				margin-top: 20px;
+				padding-left: 10px;
+			}
+			
+			&:hover {
+				border-bottom: solid 5px $deep-orange-color5;
+				color: white;
+				box-shadow: -10px -10px $orange-color5;
+				background: $orange;
+				transition: linear .2s;
+
+				.font-icon {
+					color: white;
+				}
+			}
+		}
+
+		.col {
+			text-align: center;
+		}
+	}
+}

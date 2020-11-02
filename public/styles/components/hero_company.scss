@@ -1,0 +1,31 @@
+.hero-company {
+	padding: 10em 0 3em;
+
+	.text-area {
+		padding-top: 6rem;
+
+		.description {
+			color: $grey;
+			margin: 20px 0;
+			width: 80%;
+		}
+		.buttons {
+			padding: 10px 0;
+
+			a {
+				margin-right: 1em; 
+			}
+		}
+	}
+
+	.image-area {
+		img {
+			width: 100%;
+			height: auto;
+			border: solid 1px $grey;
+			border-radius: 10px;
+			-webkit-filter: contrast(140%); // drop-shadow(8px 8px 10px $orange);
+			filter: contrast(140%); // drop-shadow(8px 8px 10px $orange);
+		}
+	}
+}

@@ -1,0 +1,150 @@
+header {
+  position: fixed;
+  background: $bg-color;
+  // background-color: rgba(255,255,255,.7) !important;
+  // backdrop-filter: saturate(180%) blur(20px) !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  transition: .4s ease-in-out;
+  //border-bottom: solid 1px #e4e4e4;
+  //box-shadow: 0.1px 0.1px 0.5em $grey;
+
+  .mega-menu
+  {
+    padding: 10px;
+  }
+
+  .top-bar {
+    border-bottom: solid 1px #e4e4e4;
+    background-color: $bg-color;
+    padding: 5px 30px;
+    ul {
+      padding: 0;
+      margin: 0;
+      .item {
+        display: inline-block;
+        margin-right: 10px;
+      }
+    }
+
+    .sign-btns {
+      text-align: right;
+
+      .login-btn {
+        color: $orange;
+        border-radius: 20px;
+        border: solid 1px $orange;
+        text-transform: uppercase;
+  
+        &:hover {
+          color: white;
+          background: $orange;
+        }
+      }
+
+      .btn {
+        font-size: 14px;
+        padding: 3px 10px;
+        margin-left: 10px;
+      }
+    }
+
+    .header-social {
+     
+      li {
+        vertical-align: bottom;
+        display: inline-block;
+
+        .social-icon{
+          margin-right: 10px;
+          color: $grey;
+          &:hover {
+            color: $btn-orange-hover;
+          }
+        }
+      }
+    }
+  }
+
+  .icon {
+    width: 14px;
+    margin-right: 10px;
+    color: $orange;
+  }
+
+  .bg-light {
+    transition: .4s ease-in-out !important;
+    background: $bg-color !important;
+  // background-color: rgba(255,255,255,.0) !important;
+  //  backdrop-filter: saturate(180%) blur(20px) !important;
+  }
+
+  .navbar-collapse {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  // .contact {
+  //   a {
+  //     font-size: 15px;
+  //   }
+  // }
+
+  @media (max-width: 768px) {
+    .divider-hide {
+        display: none;
+    }
+  }
+  nav {
+    //text-align: right;
+
+    ul {
+      padding: 4px 16px;
+
+      li {
+        padding: 5px 10px;
+
+        a {
+          color: $black;
+          font-weight: 400;
+          font-size: 16px;
+
+          &:hover {
+            text-decoration: none;
+            color: $orange;
+          }
+        }
+      }
+    }
+
+    .nav-link {
+      padding: 0 !important;
+
+      color: $black !important;
+      font-size: 16px;
+
+      &:hover {
+        text-decoration: none;
+        color: $orange !important;
+      }
+
+    }
+  }
+
+}
+
+.header-scroll {
+  .top-bar {
+    margin-top: -40px;
+    transition: .4s;
+  }
+
+  .bg-light {
+    background: white !important;
+  }
+
+  background: white;
+  box-shadow: 0 2px 40px 0 hsla(240,0%,6%,.05);
+}

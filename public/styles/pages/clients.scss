@@ -1,0 +1,40 @@
+.clients {
+	.reviews {
+		padding: 100px 0;
+
+		.company-logo{
+			height: 150px;
+			text-align: center;
+		}
+		img {
+			width: 50%;
+			margin: 20px;
+		}
+
+		.quote {
+			text-align: left;
+			color: $grey;
+			padding: 10px 0;
+		}
+
+		.stars {
+			color: $orange;
+		}
+
+		.company-name {
+			color: $dark-grey;
+			text-transform: uppercase;
+		}
+
+		.man-name {
+			color: $grey;
+			text-transform: uppercase;
+			font-size: 14px;
+		}
+
+		.man-position {
+			color: $grey;
+			font-size: 14px;
+		}
+	}
+}

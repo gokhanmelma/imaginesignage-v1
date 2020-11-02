@@ -1,0 +1,147 @@
+.shop {
+	.shopping-cart {
+		padding: 50px 0;
+
+		.container {
+			max-width: 1640px;
+		}
+
+		.filter-area-top {
+			margin: 15px;
+			
+			input {
+			}
+
+			.input-range {
+
+			}
+
+			.price-range {
+				font-size: 14px;
+			}
+		}
+		.sidebar {
+			position: -webkit-sticky;
+			position: sticky;
+			top: 120px;
+			height: 50vh;
+			
+			background: white;
+			box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+			padding: 0;
+			margin: 15px 0;
+
+			.top-square {
+				color: white;
+				background: $black;
+				padding: 15px 0 0;
+				margin: 0;
+				height: 50px;
+			}
+
+			.filter-area-side {
+				ul {
+					padding-left: 0;
+					list-style-type: none;
+					font-size: 14px;
+					li {
+						padding: 5px 0;
+						color: $grey;
+
+						&:hover {
+							cursor: pointer;
+							color: $orange;
+						}
+					}
+				}
+			}
+		}
+
+		.products {
+
+			.product {
+				box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+				background: white;
+				margin: 15px;
+				font-size: 14px;
+
+				.font-icon-check {
+					width: 16px;
+					font-size: 16px;
+					color: $orange;
+				}
+
+				.font-icon-cross {
+					width: 16px;
+					font-size: 16px;
+					color: $grey;
+				}
+
+				.fab-icon {
+					color: blue;
+					width: 30px;
+					font-size: 20px;
+				}
+
+				img {
+					width: 100%;
+				}
+
+				.name {
+					font-weight: 600;
+					margin-bottom: 5px;
+				}
+				span {
+					text-decoration: line-through;
+					color: $grey;
+					font-size: 16px;
+				}
+
+				.price {
+					font-size: 30px;
+					color: $orange;
+					margin: 10px 0;
+				}
+
+				.add-to-btn {
+					margin: 3%;
+
+					.cart-btn {
+						font-size: 14px;
+						padding: 5px 10px;
+					}
+
+					.cart-font-icon {
+						width: 18px;
+					}
+
+					#increment-component button {
+						//background-color: black;
+						font-size: 16px;
+						border-color: transparent;
+						border-radius: 3px;
+						padding: 0px;
+					  }
+					  
+					#increment-component input {
+						font-size: 16px;
+						margin: 0px 1px;
+						text-align: center;
+						width: 40px;
+					  }
+					  
+					#increment-component sub {
+						color: red;
+						font-weight: bold;
+						padding-left: 5px;
+					  }
+					  
+				}
+
+				.border-left {
+					border-left: solid 1px $orange;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,205 @@
+.industries{
+	// .benefits {
+	// 	padding: 100px 0;
+	// }
+	.industry-hero{
+		padding: 100px 0;
+		margin-top: 100px;
+		background: url(/../images/industires/img00.png);
+		background-size: cover;
+
+		h1 {
+			margin: 100px;
+			text-transform: uppercase;
+		}
+	}
+
+	.core-features {
+		padding: 100px 0;
+	
+		img {
+			width: 30%;
+			margin: 10px;
+		}
+	}
+
+	.score {
+		padding: 100px 0;
+		background: white;
+
+		.description {
+			padding: 20px 0;
+		}
+
+		img {
+			width: 250px;
+			margin: 10px;
+		}
+	}
+	
+	.features-apps{
+		padding: 100px 0;
+		.show {
+			position: relative;
+			text-align: right;
+			overflow: hidden;
+	
+			.show-img {
+				display: inline-block;
+				width: 90%;
+				border: solid 3px $black;
+				margin: 20px;
+			}
+	
+			.square-img {
+				opacity: 0.8;
+				position: absolute;
+				bottom: -50%;
+				right: 5%;
+				width: 50%;
+				height: 42%;
+	
+				-webkit-animation: slide1 0.5s forwards;
+				-webkit-animation-delay: 1s;
+				animation: slide1 0.5s forwards;
+				animation-delay: 0.8s;
+			}
+	
+			.text {
+				text-align: left;
+				position: absolute;
+				bottom: -50%;
+				right: 8%;
+				width: 45%;
+	
+				-webkit-animation: slide1 0.5s forwards;
+				-webkit-animation-delay: 1s;
+				animation: slide1 0.5s forwards;
+				animation-delay: 0.8s;
+			}
+			@-webkit-keyframes slide1 { 100% { bottom: 20px; }}
+			@keyframes slide1 {100% { bottom: 20px; }}
+		}
+
+		.icon {
+			margin: 2px;
+			background: white;
+			border: solid 1px $orange;
+
+			&:hover {
+				background: $orange;
+				color: white;
+			}
+
+			.icon-image {
+				width: 50px;
+				margin: 10px;
+			}
+	
+			.name {
+				
+			}
+		}
+	}
+
+	.hardwares {
+		padding: 100px 0;
+		background: white;
+
+		.hardware-block {
+			background: white;
+			padding: 20px;
+
+			&:hover {
+				background: $orange;
+				color: white;
+			}
+
+			img { 
+				width: 40%;
+				border-radius: 8px;
+			}
+			.name {
+				font-size: 18px;
+			}
+			.title {
+				padding-top: 20px;
+			}
+		}
+	}
+		
+	.case-studies {
+		padding: 100px 0;
+
+		.blog-block {
+			padding: 20px;
+			background: white;
+		
+			img {
+				width: 100%;
+				border-radius: 5px;
+			}
+			.category {
+				color: $grey;
+				margin: 10px;
+				text-transform: uppercase;
+				font-size: 14px;
+			}
+			.title {
+				font-size: 20px;
+				color: $black;
+				margin: 10px;
+				&:hover {
+					color: $orange;
+				}
+			}
+			.more-btn {
+				font-size: 14px;
+				color: $black;
+				margin: 10px;
+				&:hover {
+					color: $orange;
+				}
+			}
+		}
+	}
+
+	.reviews {
+		padding: 100px 0;
+
+		.company-logo{
+			height: 150px;
+			text-align: center;
+		}
+		img {
+			width: 50%;
+			margin: 20px;
+		}
+
+		.quote {
+			text-align: left;
+			color: $grey;
+			padding: 10px 0;
+		}
+
+		.stars {
+			color: $orange;
+		}
+
+		.company-name {
+			color: $dark-grey;
+			text-transform: uppercase;
+		}
+
+		.man-name {
+			color: $grey;
+			text-transform: uppercase;
+			font-size: 14px;
+		}
+
+		.man-position {
+			color: $grey;
+			font-size: 14px;
+		}
+	}
+}

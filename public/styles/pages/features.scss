@@ -1,0 +1,130 @@
+.features {
+	.list {
+		background: white;
+		padding: 100px 0;
+
+		.col + .col {
+			border-left: dashed 1px $orange;
+		}
+
+		.item {
+			.font-icon {
+				color: $orange-color4;
+				margin: 10px;
+				width: 50px;
+				height: 50px;
+			}
+
+			.name {
+				padding: 10px 0;
+				font-size: 22px;
+			}
+
+			.description {
+				
+			}
+		}
+	}
+
+	.compare{
+		padding: 100px 0;
+		
+		p {
+			display: inline-block;
+		}
+
+		.sub-title {
+			width: 50%;
+		}
+
+		.description {
+			width: 80%;
+		}
+
+		.block {
+			//background: white;
+			margin: 20px;
+			padding: 30px;
+			//border-bottom: solid 5px $orange-color4;
+			border-radius: 10px;
+
+			.font-icon {
+				font-size: 50px;
+				color: $orange-color4;
+				margin: 10px 0;
+			}
+
+			.title {
+				font-size: 18px;
+			}
+
+			&:hover {
+				// //border-bottom: solid 5px $deep-orange-color5;
+				// color: white;
+				// //box-shadow: -10px -10px $orange-color5;
+				// background: $orange;
+				// transition: linear .2s;
+
+				// .font-icon {
+				// 	color: white;
+				// }
+			}
+		}
+	}
+
+	.score {
+		padding: 100px 0;
+		background: white;
+
+		.description {
+			padding: 20px 0;
+		}
+
+		img {
+			width: 250px;
+			margin: 10px;
+		}
+	}
+
+	.purchase {
+		padding: 100px 0;
+
+		img {
+			width: 200px;
+			margin: 20px 10px;
+		}
+
+		.font-icon {
+			font-size: 150px;
+			margin: 10px 0;
+			color: $orange-color2;
+		}
+	}
+
+	.credit-card {
+		padding: 100px 0;
+		background: white;
+
+		.description {
+			padding: 20px 0;
+		}
+
+		.font-icon {
+			font-size: 200px;
+			margin: 10px;
+			color: $orange-color4;
+		}
+
+		hr {
+			width: 80%;
+			margin: 50px 0;
+		}
+
+		.row:hover {
+			.font-icon {
+				color: $orange-color6;
+				transition: linear .4s;
+			}
+		}
+	}
+}

@@ -1,0 +1,187 @@
+// font
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@font-face {
+	font-family: Helvetica;
+	src: url(/public/fonts/HelveticaNeueLTStd-Cn.otf);
+}
+
+// vendor
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+// variables
+@import './variables';
+
+// components
+@import './components/layout/header';
+@import './components/layout/layout';
+@import './components/layout/footer';
+
+@import './components/hero';
+@import './components/hero_shop';
+@import './components/hero_company';
+@import './components/hero_features';
+@import './components/brands';
+@import './components/video';
+@import './components/triple';
+@import './components/sliderproducts';
+@import './components/apps';
+@import './components/demorequest';
+@import './components/sliderflow';
+
+// pages
+@import './pages/index';
+@import './pages/industries';
+@import './pages/widgets';
+@import './pages/widget';
+@import './pages/features';
+@import './pages/blog';
+@import './pages/contact';
+@import './pages/partners';
+@import './pages/pricing';
+@import './pages/clients';
+@import './pages/about';
+@import './pages/shop';
+@import './pages/product';
+@import './pages/login';
+@import './pages/register';
+
+// global styles
+body {
+	margin: 0;
+	font-family: 'Helvetica';
+	font-size: 16px;
+	background-color: $bg-color;
+}
+
+.fill-btn {
+	color: white;
+	border-radius: 20px;
+	background: $btn-orange;
+	border: solid 1px $btn-orange;
+	padding: 6px 18px;
+	text-transform: uppercase;
+
+	&:hover {
+		color: white;
+		background: $btn-orange-hover;
+	}
+}
+
+.line-btn{
+	color: $orange;
+	border-radius: 20px;
+	border: solid 1px $orange;
+	padding: 6px 18px;
+	text-transform: uppercase;
+
+	&:hover {
+		color: white;
+		background: $btn-orange-hover;
+	}
+}
+
+.square-btn {
+	color: white;
+	background: $orange;
+	border-radius: 2px;
+	padding: 12px 30px;
+
+	&:hover {
+		color: white;
+		background: $btn-orange-hover;
+	}
+}
+
+.square-btn-big {
+	color: white;
+	background: $orange;
+	border-radius: 2px;
+	padding: 12px 30px;
+
+	&:hover {
+		color: white;
+		background: $btn-orange-hover;
+	}
+}
+
+.square-line-btn-big {
+	color: $orange;
+	border-radius: 2px;
+	border: solid 1px $orange;
+	padding: 12px 30px;
+
+	&:hover {
+		color: white;
+		background: $btn-orange-hover;
+	}
+}
+
+a {
+	color: $dark-grey;
+	&:hover {
+		text-decoration: none;
+		color: $orange;
+	}
+}
+
+// hero titile
+h1 {
+	color: $black;
+	font-family: 'Montserrat', sans-serif;
+}
+
+// section title
+h3 {
+	font-size: 2em;
+	color: $black;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 20px;
+}
+
+.orange {
+	color: $orange;
+}
+
+.green {
+	color: $green;
+}
+
+.grey {
+	color: $grey;
+}
+
+.black {
+	color: $black;
+}
+
+.back-white {
+	background-color: white;
+}
+
+.back-grey {
+	background-color: $bg-color;
+}
+
+::-moz-selection { /* Code for Firefox */
+	color: white;
+	background: $orange;
+}
+
+::selection {
+	color: white;
+	background: $orange;
+}
+
+.center {
+	margin: auto;
+	width: 50%;
+}
+
+.mui-fixed {
+	/*
+	 * make sure that added right padding
+	 * actually pushes contents to the left
+	 */
+	box-sizing: content-box;
+}

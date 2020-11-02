@@ -1,0 +1,65 @@
+.about {
+	.us {
+		padding: 100px 0;
+		background: white;
+
+		.right-description {
+			color: $grey;	
+		}
+
+		ul {
+			margin-top: 20px;
+			padding-left: 0;
+			list-style-type: none;
+			li {
+				color: $grey;
+				.font-icon {
+					color: $orange;
+				}
+			}
+		}
+	}
+
+	.team {
+		padding: 100px 0;
+
+		.card {
+			border: none;
+			background: none;
+			align-items: center;
+
+			.card-img-top {
+				border-radius: 50%;
+				width: 130px;
+				height: 130px;
+			}
+
+			.card-title {
+				font-size: 18px;
+				margin-bottom: 5px;
+			}
+
+			.card-subtitle {
+				font-size: 14px;
+				color: $grey;
+			}
+
+			.card-text {
+				margin-top: 10px;
+			}
+
+			.social {
+				padding-left: 0;
+
+				li {
+					display: inline-block;
+
+					.social-icon{
+						color: $grey;
+						margin: 5px;
+					}
+				}
+			}
+		}
+	}
+}

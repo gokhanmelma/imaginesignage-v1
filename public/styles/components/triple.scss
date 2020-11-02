@@ -1,0 +1,31 @@
+.triple {
+	padding: 100px 0;
+	position: relative;
+
+	.description {
+		padding: 5% 5%;
+	}
+
+	.font-icon{
+		width: 30%;
+		height: 30%;
+		margin: 20px;
+		color: $orange;
+	}
+
+	.hr-one {
+		border-top: dashed 1px $green;
+		width: 200px;
+		position: absolute;
+		top: 45%;
+		left: 35%;
+	}
+
+	.hr-two {
+		border-top: dashed 1px $green;
+		width: 200px;
+		position: absolute;
+		top: 45%;
+		right: 35%;
+	}
+}

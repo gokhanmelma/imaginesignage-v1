@@ -1,0 +1,42 @@
+.video {
+	padding: 100px 0;
+	background: white;
+
+	.text-area {
+		padding: 1rem 1rem;
+
+		.description {
+			color: $grey;
+			padding: 10px 0;
+		}
+		.icons {
+			padding: 10px 0;
+
+			a {
+				color: $orange;
+
+				&:hover {
+					color: $btn-orange-hover;
+				}
+
+				.icon {
+					margin-right: 30px;
+					width: 40px;
+				}
+			}
+		}
+	}
+
+	.video-area {
+		.player-wrapper {
+			position: relative;
+			padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+		}
+
+		.react-player {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	}
+}

@@ -1,0 +1,51 @@
+.blog {
+	.articles{
+		padding: 100px 0;
+
+		img {
+			width: 80%;
+			padding: 10px;
+		}
+	}
+
+	.latest{
+		padding: 100px 0;
+
+		img {
+			width: 100%;
+		}
+	}
+
+	.tab-gallery {
+		padding: 100px 0;
+		background: white;
+
+		img {
+			width: 90%;
+		}
+
+		strong {
+			color: $black;
+
+			&:hover {
+				cursor: pointer;
+			}
+		}
+
+		.active {
+			strong {
+				color: $orange;
+			}
+		}
+
+		.item {
+			h4 {
+				padding: 10px 0;
+			}
+		}
+
+		.description {
+			color: $grey;
+		}
+	}
+}

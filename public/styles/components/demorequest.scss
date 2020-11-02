@@ -1,0 +1,25 @@
+.demorequest {
+	padding: 100px 0;
+	background: #FFA735;
+	background-size: cover;
+
+	.icon {
+		width: 150px;
+		height: auto;
+		color: $orange;
+	}
+
+	h3 {
+		color: white;
+	}
+
+	.demo-link {
+		color: white;
+		text-transform: uppercase;
+		border: solid 2px white;
+		&:hover {
+			font-size: 17px;
+			transition: linear .1s;
+		}
+	}
+}

@@ -1,0 +1,82 @@
+.pricing {
+	.membership {
+		padding: 100px 0;
+		background: white;
+
+		.description {
+			padding: 0 0 30px;
+		}
+
+		.container {
+			max-width: 1680px;
+		}
+
+		ul {
+			padding: 0 0 0 30px;
+
+			li {
+				list-style-type: none;
+				text-align: left;
+				padding: 5px 0;
+			}
+		}
+
+		.awesome-font {
+			width: 12px;
+			color: $orange_color4;
+		}
+
+		.contacts {
+			padding: 20px;
+			box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+		}
+
+		.level {
+			padding: 20px;
+			box-shadow: 0 25px 98px 0 rgba(0,0,0,.1);
+			border-radius: 10px;
+
+			.box {
+				.name {
+					font-size: 18px;
+				}
+
+				.price {
+					font-size: 36px;
+					color: $orange;
+				}
+
+				.monthly {
+					font-size: 12px;
+				}
+			}
+
+			&:hover {
+				border: solid 1px $orange;
+			}
+		}
+
+		.professional {
+			//box-shadow: 0 25px 98px 0 rgba(0,0,0,.1);
+			box-shadow: 0 10px 30px 0 $orange;
+		}
+	}
+
+	.eligibility {
+		padding: 100px 0;
+		
+		.accordion__button {
+			background: white;
+
+			&:hover {
+				color: $orange;
+			}
+		}
+
+		.accordion__panel {
+			color: $black;
+			background-color: $deep_orange_color2; /* For browsers that do not support gradients */
+			//background-image: linear-gradient(to bottom right, $orange, rgb(250, 181, 149)); /* Standard syntax (must be last) */
+		}
+	}
+}

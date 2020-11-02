@@ -1,0 +1,60 @@
+.services {
+	background: white;
+	padding-bottom: 4em;
+
+	.wrap {
+		max-width: 880px;
+	}
+
+	.tilt {
+		background: $green;
+		-webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.1);
+		-moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.1);
+		box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.1);
+		border-radius: 8px;
+		width: 100%;
+		-webkit-transition: box-shadow 0.8s;
+		transition: box-shadow 0.8s;
+		overflow: hidden;
+		padding: 0;
+		margin: 10px;
+
+		&:hover .title {
+			text-decoration: none;
+			background: $orange;
+		}
+
+		.tilt-image {
+			text-align: center;
+			opacity: 0.8;
+			position: relative;
+
+			img {
+				width: 100%;
+				height: auto;
+				text-align: center;
+				left: 0px;
+				right: 0px;
+				//filter: brightness(0.5);
+			}
+		}
+
+		.title {
+			color:#fff;
+			background: $green;
+			text-align: center;
+			padding: 3px;
+			position: absolute;
+			margin: auto;
+			width: 100%;
+			left: 0px;
+			right: 0px;
+			bottom: 0px;
+
+			&:hover {
+				text-decoration: none;
+				background: $orange;
+			}
+		}
+	}
+}

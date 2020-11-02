@@ -1,0 +1,53 @@
+.register {
+	background: url(/../images/login2.png);
+	background-size: 100% 105%;
+
+	.close {
+		position: absolute;
+		top: 50px;
+		right: 50px;
+		color:$black;
+		font-size: 48px;
+	}
+
+	.text {
+		font-size: 36px;
+		font-weight: 600;
+		color: white;
+		margin: 70% 0;
+	}
+
+	.login-panel {
+		background-color: white;
+		box-shadow: 0 25px 40px 0 rgba(0,0,0,.1);
+		border-radius: 10px;
+		margin: 50% 0;
+		padding: 50px;
+
+		.label1 {
+			font-size: 36px;
+			font-weight: 600;
+			color: $black;
+		}
+
+		.label2 {
+			color: $grey;
+		}
+
+		.input {
+			padding: 20px 0;
+			input {
+				border-radius: 20px;
+				background-color: #f5f5f5;
+				border: none;
+				padding: 20px;
+				margin: 10px 0;
+			}
+		}
+		
+		.signup {
+			padding: 20px 0;
+			color: $grey;
+		}
+	}
+}

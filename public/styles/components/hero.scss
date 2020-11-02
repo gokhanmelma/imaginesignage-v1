@@ -1,0 +1,65 @@
+.hero {
+	padding: 10em 0 3em;
+
+	.text-area {
+		padding-top: 6rem;
+
+		.description {
+			color: $grey;
+			margin: 20px 0;
+			width: 80%;
+		}
+		.buttons {
+			padding: 10px 0;
+
+			a {
+				margin-right: 1em; 
+			}
+		}
+	}
+
+	.image-area {
+		img {
+			width: 120%;
+			height: auto;
+			border: solid 2px $black;
+			border-radius: 10px;
+			-webkit-filter: contrast(180%); // drop-shadow(8px 8px 10px $orange);
+			filter: contrast(180%); // drop-shadow(8px 8px 10px $orange);
+		}
+	}
+}
+
+.services {
+	padding: 50px 0;
+
+	.block {
+		background: white;
+		display: inline-block;
+		width: 80%;
+		box-shadow: 0 4px 9px 0 rgba(133,103,158,.24);
+		border-radius: 5px;
+		padding: 20px;
+		border: solid 1px white;
+
+		.font-icon {
+			width: 40px;
+			height: 50px;
+			color: $orange-color4;
+		}
+
+		.service-name {
+			color: $grey;
+			font-weight: 600;
+		}
+
+
+		&:hover {
+			border: solid 1px $orange;
+
+			.font-icon {
+				color: $orange;
+			}
+		}
+	}
+}

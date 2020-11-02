@@ -1,0 +1,78 @@
+.contact {
+	.google-map {
+		margin-top: 141px;
+	}
+
+	.contact-team {
+		padding: 100px 0 50px;
+		background: white;
+
+		.description {
+			display: inline-block;
+			width: 60%;
+		}
+	}
+
+	.what {
+		padding: 0 0 50px;
+		background: white;
+
+		.item {
+			background: $orange;
+			padding: 20px 30px;
+			border-radius: 5px;
+
+			.font-icon {
+				font-size: 100px;
+				color: $light-grey;
+			}
+
+			.name {
+				margin: 5px;
+				color: white;
+			}
+
+			&:hover {
+				.name {
+					color: $black;
+				}
+			}
+		}
+	}
+
+	.otherways {
+		padding: 50px 0;
+
+		.container {
+			max-width: 800px;
+		}
+
+		.block {
+			background: white;
+			box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+			margin: 20px 0;
+		}
+
+		.font-icon {
+			font-size: 50px;
+		}
+	}
+
+	.more-help {
+		padding: 50px 0;
+		background: white;
+
+		.social {
+			padding-left: 0;
+		}
+		.social li {
+			list-style-type: none;
+			display: inline-block;
+
+			.social-icon {
+				color: $grey;
+				margin: 10px;
+			}
+		}
+	}
+}

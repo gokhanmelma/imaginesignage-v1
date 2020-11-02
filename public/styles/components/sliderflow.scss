@@ -1,0 +1,13 @@
+.sliderflow {
+	width: calc(100vw - 17px);
+	padding: 20px 0px 10px;
+
+	opacity: 0.9;
+	.slick-arrow {
+		display: none !important;
+	}
+
+	img {
+		width: 300px;
+	}
+}

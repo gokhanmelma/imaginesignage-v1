@@ -1,0 +1,93 @@
+.sliderproducts {
+	padding: 100px 0;
+
+	.description {
+		margin-bottom: 10px;
+	}
+
+	.product {
+		background: white;
+		border: solid 5px $bg-color;
+		padding: 20px 10px;
+		//border-bottom: solid 5px $orange;
+		border-radius: 15px;
+
+		&:hover {
+			margin-top: -5px;
+			//border-bottom: solid 5px $btn-orange-hover;
+			transition: linear .4s;
+		}
+	}
+
+	p {
+		margin-bottom: 8px;
+	}
+
+	.product-image {
+		position: relative;
+
+		img {
+			width: 93%;
+			height: 200px;
+			margin: 10px;
+			//box-shadow: 0.1px 0.1px 0.2em $green;
+			border-radius: 8px;
+		}
+
+		.new {
+			position: absolute;
+			top: -17px;
+			right: -7px;
+
+			img {
+				width: 50px;
+				height: 50px;
+				box-shadow: none;
+				border-radius: 0;
+			}
+		}
+	}
+
+	.product-name {
+		font-size: 20px;
+	}
+
+	.price {
+		color: $orange;
+		font-size: 30px;
+		sup {
+			color: grey;
+			text-decoration: line-through;
+		}
+	}
+
+	.quick-view {
+		a {
+			font-size: 12px;
+			color: $btn-green;
+			&:hover {
+				color: $btn-green-hover;
+				text-decoration: none;
+			}
+		}
+	}
+
+	.awesome-font {
+		width: 14px;
+	}
+
+	.awesome-font-eye {
+		color: $green;
+		width: 20px;
+
+		&:hover {
+			color: $orange;
+		}
+	}
+
+	.cart-btn {
+		margin: 10px 0;
+		font-size: 12px;
+	}
+
+}

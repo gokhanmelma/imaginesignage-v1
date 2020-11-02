@@ -1,0 +1,35 @@
+.widget {
+    .arrow-image {
+        padding: 200px 0 0;
+		.container {
+            max-width: 600px;
+
+            img {
+                width: 30px;
+                height: 20px;
+            }
+        }
+	}
+	
+    .widget-slider{
+        padding: 50px 0 50px;
+
+        .container {
+            max-width: 300px;
+        }
+    }
+
+    .widget-text {
+        padding: 0 0 100px;
+
+        .container {
+            max-width: 600px;
+
+            .appname {
+                color: $orange;
+                font-size: 30px;
+                padding-bottom: 10px;
+            }
+        }
+    }
+}

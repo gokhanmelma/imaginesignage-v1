@@ -1,0 +1,56 @@
+.partners {
+
+	span {
+		color: $orange;
+	}
+
+	.reviews {
+		padding: 100px 0;
+
+		.slider-review{
+			max-width: 80%;
+
+			.quote {
+				margin-bottom: 5px;
+				font-size: 18px;
+			}
+
+			.client-position {
+				font-size: 12px;
+			}
+		}
+
+		.love-us-text {
+			padding: 0px 50px;
+			border-left: dashed 1px $orange;
+		}
+	}
+
+	.reseller-benefit {
+		padding: 100px 0;
+		background: white;
+
+		.text {
+			color: $grey;
+		}
+
+		img {
+			width: 100%;
+			margin: 0 10px;
+		}
+	}
+
+	.reseller-form {
+		padding: 100px 0;
+
+		.left {}
+		.right {
+			border-left: dashed 1px $orange;
+			padding-left: 50px;
+
+			input {
+				border-radius: 20px;
+			}
+		}
+	}
+}
